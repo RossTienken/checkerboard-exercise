@@ -7,10 +7,10 @@ tile.style.paddingBottom = '11.1%';
 tile.display = 'float';
 tile.style.float = 'left';
 if(i%2 === 0){
-tile.style.backgroundColor = 'black';
+tile.style.backgroundColor = 'blue';
 }
 
 };
 
 var doc = document.getElementsByTagName('body')[0];
-doc.style.background = 'red';
+doc.style.background = "linear-gradient(to right,green,teal,blue,indigo,violet, magenta)";
